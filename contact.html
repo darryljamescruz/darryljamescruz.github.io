@@ -18,20 +18,20 @@
         </nav>        <main>
             <h1 class="page-title">contact</h1>
             <p> contact me through the form: </p>
-            <form>
+            <form id="contact-form">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" placeholder="Name" required />
                 <br><br>
                 <!--The "for" attribute references the "name" attribute in <input>.
                 The "name" attribute is necessary once we start tying in JavaScript-->
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Email" />
+                <input type="email" id="email" name="email" placeholder="Email" required />
                 <br><br>
-                <label for="comments">Comments</label>
+                <label for="message">Message</label>
                 <textarea
-                  id="comments"
-                  name="comments"
-                  placeholder="Comments"
+                  id="message"
+                  name="message"
+                  placeholder="Message"
                   required
                 ></textarea>
                 <br><br>
